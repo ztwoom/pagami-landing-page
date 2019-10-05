@@ -1,0 +1,11 @@
+$color-pack: false;
+$body-font-family: Quicksand, Roboto, sans-serif, system-ui;
+
+@import "~vuetify/src/styles/styles.sass";
+
+$material-dark: map-merge(
+  $material-dark,
+  (
+    "background": #1a202c
+  )
+);
