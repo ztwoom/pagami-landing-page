@@ -10,8 +10,14 @@ export default new Vuetify({
     themes: {
       dark: {
         primary: "#FFAB40",
+        "primary-light": "#FFDD71",
         surface: "#2C3748",
-        paragraph: "#718096"
+        paragraph: "#718096",
+        blue: "#77AAFF",
+        green: "#68D391",
+        red: "#E53E3E",
+        purple: "#8A72CB",
+        gold: "#FBD38D"
       }
     }
   },
