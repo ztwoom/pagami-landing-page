@@ -1,5 +1,5 @@
 <template>
-	<v-container>
+	<v-container tag="section" class="min-h--100vh">
 		<v-row no-gutters>
 			<v-col cols="12" md="5" justify-self="center">
 				<div class="proposition mt-1 mt-sm-7">
@@ -69,9 +69,6 @@
 			smAndUp() {
 				return this.$vuetify.breakpoint.smAndUp;
 			}
-		},
-		mounted() {
-			console.log(this.$vuetify.breakpoint);
 		}
 	};
 </script>
