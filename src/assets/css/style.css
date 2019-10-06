@@ -1,3 +1,19 @@
 .font-serif {
   font-family: Quattrocento, "Times New Roman", Times, serif !important;
 }
+.min-h--100vh {
+  min-height: 100vh;
+}
+.header-title {
+  position: relative;
+  height: 2.2rem;
+}
+.header-title::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 40px;
+  background-color: #ffdd71;
+  bottom: 0;
+  left: 0;
+}
