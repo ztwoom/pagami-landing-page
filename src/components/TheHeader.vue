@@ -18,9 +18,8 @@
 				background-color="surface"
 				center-active
 				color="white"
-				optional
 				show-arrows
-				@change="onTabChange"
+				optional
 			>
 				<v-toolbar-items>
 					<v-tab>
