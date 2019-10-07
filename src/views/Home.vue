@@ -5,6 +5,8 @@
 			<value-proposition></value-proposition>
 			<for-business></for-business>
 			<app-features></app-features>
+			<app-pricing></app-pricing>
+			<the-footer></the-footer>
 		</v-content>
 	</div>
 </template>
@@ -14,12 +16,16 @@
 	import ValueProposition from "@/components/ValueProposition.vue";
 	import ForBusiness from "@/components/ForBusiness.vue";
 	import AppFeatures from "@/components/AppFeatures.vue";
+	import AppPricing from "@/components/AppPricing.vue";
+	import TheFooter from "@/components/TheFooter.vue";
 	export default {
 		components: {
 			TheHeader,
 			ValueProposition,
 			ForBusiness,
-			AppFeatures
+			AppFeatures,
+			AppPricing,
+			TheFooter
 		}
 	};
 </script>
