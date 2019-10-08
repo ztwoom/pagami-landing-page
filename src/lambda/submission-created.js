@@ -1,5 +1,6 @@
 exports.handler = (event, context, cb) => {
-  console.log(JSON.parse(event.body));
+  let payload = JSON.parse(event.body).payload;
+  console.log(payload);
   cb(null, {
     statusCode: 200
   });
