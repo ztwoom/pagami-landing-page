@@ -106,6 +106,7 @@
 				});
 				try {
 					let res = await fetch(request);
+					console.log(res);
 					if (!res.ok && res.status !== 200) {
 						throw "💥 Hubo un error guardando el correo";
 					} else {
