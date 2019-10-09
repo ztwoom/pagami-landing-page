@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.1.2",
+    "mailchimp-api-v3": "^1.13.1",
     "register-service-worker": "^1.6.2",
     "typeface-quattrocento": "^0.0.72",
     "typeface-quicksand": "^0.0.71",
