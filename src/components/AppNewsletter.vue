@@ -4,13 +4,7 @@
 		<p class="body-1 paragraph--text mt-1">
 			y recibe una notificación cuando la aplicación esté lista para Android!
 		</p>
-		<form
-			@submit.prevent="onSubmit"
-			name="newsletter"
-			netlify-honeypot="bot-field"
-			netlify
-		>
-			<input type="hidden" name="bot-field" />
+		<form @submit.prevent="onSubmit">
 			<div class="d-md-flex mt-6">
 				<v-text-field
 					class="mr-md-3"
@@ -26,7 +20,6 @@
 					:style="{ maxWidth: !smAndUp ? '100%' : '80%' }"
 					v-model="newsletterConfigObj.email"
 					:disabled="newsletterConfigObj.disabled"
-					name="email"
 				></v-text-field>
 				<v-btn
 					elevation="0"
