@@ -112,6 +112,8 @@
 						this.msg = "🙌 Gracias! Hemos guardado tu correo";
 						this.snackbar = true;
 						this.clear();
+						let body = await res.json();
+						console.log(body);
 					}
 				} catch (error) {
 					this.msg = error;
