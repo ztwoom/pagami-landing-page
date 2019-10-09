@@ -110,9 +110,6 @@
 					if (!res.ok && res.status !== 200) {
 						throw "💥 Hubo un error guardando el correo";
 					} else {
-						let data = await res.json();
-						console.log(data);
-
 						this.msg = "🙌 Gracias! Hemos guardado tu correo";
 						this.snackbar = true;
 						this.clear();
