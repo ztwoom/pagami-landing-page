@@ -87,7 +87,7 @@
 				}
 			},
 			async sent() {
-				const req = new Request("/.netlify/functions/subscribeMmber", {
+				const req = new Request("/.netlify/functions/subscribeMember", {
 					method: "POST",
 					headers: {
 						"Content-Type": "application/json"
