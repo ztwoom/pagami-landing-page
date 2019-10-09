@@ -7,10 +7,7 @@ exports.handler = async (evt, context) => {
 
   console.log("payload", payload);
   console.log("site", site);
-  return {
-    body: JSON.stringify(payload),
-    statusCode: 200
-  };
+  // return {s
   // try {
   //   const list = await mp.post("/lists/50afccf669/members", { email, status: "pending" });
   //   return {
