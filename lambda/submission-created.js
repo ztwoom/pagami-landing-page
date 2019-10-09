@@ -3,9 +3,12 @@ const mp = new Mailchimp(process.env.MP_API_KEY);
 
 exports.handler = async (evt, context) => {
   // let { email } = JSON.parse(evt.body).payload;
-  let payload = JSON.parse(evt.body).payload;
+  let { payload, site } = JSON.parse(evt.body);
+
   console.log("payload", payload);
+  console.log("site", site);
   return {
+    body: JSON.stringify(payload),
     statusCode: 200
   };
   // try {
