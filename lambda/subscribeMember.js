@@ -6,7 +6,7 @@ exports.handler = async (evt, context) => {
 
   try {
     let { statusCode, email_address } = await mp.post("/lists/50afccf669/members", {
-      email_addresss: email,
+      email_address: email,
       status: "pending"
     });
     if (statusCode === 200)
