@@ -6,7 +6,6 @@ exports.handler = async (evt, context) => {
   let payload = JSON.parse(evt.body).payload;
   console.log("payload", payload);
   return {
-    body: JSON.stringify(payload),
     statusCode: 200
   };
   // try {
