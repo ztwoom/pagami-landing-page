@@ -4,13 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && netlify-lambda build src/lambda",
-    "test:unit": "vue-cli-service test:unit",
-    "serve:lambda": "netlify-lambda serve src/lambda"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^3.1.2",
-    "netlify-lambda": "^1.6.3",
     "register-service-worker": "^1.6.2",
     "typeface-quattrocento": "^0.0.72",
     "typeface-quicksand": "^0.0.71",
