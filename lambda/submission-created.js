@@ -4,10 +4,7 @@ const mp = new Mailchimp(process.env.MP_API_KEY);
 exports.handler = async (evt, context) => {
   // let { email } = JSON.parse(evt.body).payload;
   let payload = JSON.parse(evt.body).payload;
-  let site = JSON.parse(evt.body).site;
-
-  console.log("payload", payload);
-  console.log("site", site);
+  console.log("payloaddddd", payload);
   // return {s
   // try {
   //   const list = await mp.post("/lists/50afccf669/members", { email, status: "pending" });
