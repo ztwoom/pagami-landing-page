@@ -113,7 +113,9 @@
 						this.snackbar = true;
 						this.clear();
 						let body = await res.json();
-						console.log(body);
+						let b2 = await res.body;
+						console.log("b2", b2);
+						console.log("body", body);
 					}
 				} catch (error) {
 					this.msg = error;
