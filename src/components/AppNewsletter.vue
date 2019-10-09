@@ -41,7 +41,7 @@
 				>
 			</div>
 		</form>
-		<v-snackbar v-model="snackbar" color="surface">
+		<v-snackbar v-model="snackbar" color="surface" vertical>
 			<div class="font-weight-medium">
 				{{ msg }}
 			</div>
@@ -94,28 +94,23 @@
 				}
 			},
 			async sent() {
-				const request = new Request("/", {
+				const req = new Request("/.netlify/functions/subscribe-member", {
 					method: "POST",
 					headers: {
-						"Content-Type": "application/x-www-form-urlencoded"
+						"Content-Type": "application/json"
 					},
-					body: this.getURLEncodedString({
-						"form-name": "newsletter",
-						email: this.newsletterConfigObj.email
-					})
+					body: JSON.stringify({ email: this.newsletterConfigObj.email })
 				});
 				try {
-					let res = await fetch(request);
-					console.log(res);
-					if (!res.ok && res.status !== 200) {
-						throw "💥 Hubo un error guardando el correo";
-					} else {
-						this.msg = "🙌 Gracias! Hemos guardado tu correo";
+					let res = await fetch(req);
+					if (res.ok) {
+						let { msg } = await res.json();
+						this.msg = msg;
 						this.snackbar = true;
 						this.clear();
-					}
-				} catch (error) {
-					this.msg = error;
+					} else throw await res.json();
+				} catch ({ msg }) {
+					this.msg = msg;
 					this.snackbar = true;
 					this.clear();
 				}
