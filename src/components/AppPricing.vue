@@ -15,7 +15,7 @@
 						<div class="subtitle-1 font-weight-medium primary-light--text ">
 							Gratis de por vida
 						</div>
-						<h1 class="plans__price font-serif ">$0 USD / $0 COP</h1>
+						<h1 class="plans__price font-serif ">$0 USD</h1>
 					</div>
 					<div class="d-flex mt-8 plans__features mx-auto">
 						<span>
@@ -33,7 +33,7 @@
 						<div class="subtitle-1 font-weight-medium primary-light--text ">
 							Emprendedor
 						</div>
-						<h1 class="plans__price font-serif ">$12,24 USD / $39,000 COP</h1>
+						<h1 class="plans__price font-serif ">$30 USD / 2 años</h1>
 					</div>
 					<div class="d-flex mt-8 plans__features mx-auto">
 						<span>
