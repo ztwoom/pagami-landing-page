@@ -6,7 +6,7 @@
 		<v-btn icon href="tel:+573134854926" :large="large">
 			<v-icon>{{ mdiPhoneOutline }}</v-icon>
 		</v-btn>
-		<v-btn icon href="https://wa.me/19414130600" :large="large">
+		<v-btn icon href="https://wa.me/573134854926" :large="large">
 			<v-icon>{{ mdiWhatsapp }}</v-icon>
 		</v-btn>
 	</div>
