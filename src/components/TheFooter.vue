@@ -12,7 +12,7 @@
 						fill="currentColor"
 					></pagami-logo>
 					<div class="overline font-weight-bold paragraph--text ml-2">
-						"2018 - " <script>document.write(new Date().getFullYear())</script> 
+						2018 - <script>document.write(new Date().getFullYear())</script> 
 					</div>
 				</div>
 			</v-col>
