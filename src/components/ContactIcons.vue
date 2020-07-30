@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<v-btn icon href="mailto:contacto@pagami.app" :large="large">
+		<v-btn icon href="mailto:pagami.net@gmail.com" :large="large">
 			<v-icon>{{ mdiEmailOutline }}</v-icon>
 		</v-btn>
 		<v-btn icon href="tel:+573134854926" :large="large">
