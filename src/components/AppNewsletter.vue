@@ -1,8 +1,8 @@
 <template>
 	<div class="newsletter mt-8">
-		<h2 class="font-serif"> Puedes registrar gratuitamente tu empresa</h2>
+		<h2 class="font-serif"> Con Pagami, encontraras todo lo que necesitas en productos y servicios</h2>
 		<p class="body-1 paragraph--text mt-1">
-			Te ayudamos a conseguir más clientes con una tienda online para que tu negocio esté siempre abierto.
+			Te ofrecemos un directorio comercial interactivo para realizar pedidos a domicilio y solicitar los servicios mas cercanos a tu ubicación geográfica
 		</p>
 			<div class="d-md-flex mt-6">
       <a href="https://play.google.com/store/apps/details?id=io.ionic.pagami&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img width="300" height="100" alt="Disponible en Google Play" src="https://play.google.com/intl/es-419/badges/static/images/badges/es-419_badge_web_generic.png" v-btn></a>
