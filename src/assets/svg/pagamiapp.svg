@@ -12,12 +12,13 @@
     </pattern>
   </defs>
   <g id="Grupo_721" data-name="Grupo 721" transform="translate(-1896.232 -2699.248)">
+    <rect id="Rectángulo_416" data-name="Rectángulo 416" width="469.225" height="895.472" transform="translate(1926 2699.248)" fill="none"/>
     <g id="Grupo_722" data-name="Grupo 722" transform="translate(2013.232 2902.674)">
       <g id="pixel_3_copy">
         <g id="Grupo_721-2" data-name="Grupo 721">
           <g id="buttons" transform="translate(286.999 124.662)">
-            <path id="volume_buttons" d="M0,0H3.321a1.519,1.519,0,0,1,1.51,1.528V111.546a1.519,1.519,0,0,1-1.51,1.528H0Z" transform="translate(0 116.434)" fill="#caced5"/>
-            <path id="power_button" d="M0,0H3.321a1.519,1.519,0,0,1,1.51,1.528V56.537a1.519,1.519,0,0,1-1.51,1.528H0Z" fill="#b2bbb6"/>
+            <path id="volume_buttons" d="M0,0H3.321c.839,0,1.515.488,1.51,1.082V79.025c0,.594-.671,1.079-1.51,1.082H0Z" transform="translate(0 66.377)" fill="#caced5"/>
+            <path id="power_button" d="M0,0H3.321c.839,0,1.515.52,1.51,1.152V42.628c0,.632-.671,1.148-1.51,1.152H0Z" transform="translate(0 4.285)" fill="#b2bbb6"/>
           </g>
           <g transform="matrix(1, 0, 0, 1, -117, -203.43)" filter="url(#frame)">
             <path id="frame-2" data-name="frame" d="M34.589,0h217.82C271.513,0,287,16.208,287,36.2V607.6c0,19.994-15.486,36.2-34.589,36.2H34.589C15.486,643.8,0,627.594,0,607.6V36.2C0,16.208,15.486,0,34.589,0Z" transform="translate(117 203.43)" fill="#fff"/>
@@ -56,6 +57,5 @@
         </g>
       </g>
     </g>
-    <rect id="Rectángulo_416" data-name="Rectángulo 416" width="469.225" height="895.472" transform="translate(1926 2699.248)" fill="none"/>
   </g>
 </svg>
