@@ -4,10 +4,10 @@
 			<v-col cols="12" md="5" justify-self="center">
 				<div class="proposition mt-1 mt-sm-7">
 					<h1 class="proposition__title font-serif">
-						Ilumina tu negocio y conecta con nuevos clientes a tu alrededor
+						Con Pagami, encontraras todo lo que necesitas en productos y servicios
 					</h1>
 					<h2 class="subtitle-1 paragraph--text">
-						Aprovechando mapas para la gestión y crecimiento empresarial
+						Te ofrecemos un directorio comercial interactivo para realizar pedidos a domicilio y solicitar servicios más cercano a tu ubicación geográfica
 					</h2>
 				</div>
 				<app-newsletter></app-newsletter>
