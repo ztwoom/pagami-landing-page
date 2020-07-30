@@ -4,9 +4,8 @@
 		<p class="body-1 paragraph--text mt-1">
 			y recibe una notificación cuando la aplicación esté lista para Android!
 		</p>
-    <img width="300" height="100" alt="Disponible en Google Play" src="https://play.google.com/intl/es-419/badges/static/images/badges/es-419_badge_web_generic.png">
-		<form @submit.prevent="onSubmit">
 			<div class="d-md-flex mt-6">
+      <a href="https://play.google.com/store/apps/details?id=io.ionic.pagami&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img width="300" height="100" alt="Disponible en Google Play" src="https://play.google.com/intl/es-419/badges/static/images/badges/es-419_badge_web_generic.png"></a>
 				<v-text-field
 					class="mr-md-3"
 					append-icon="mdi-email-outline"
