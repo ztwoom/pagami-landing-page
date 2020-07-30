@@ -11,11 +11,7 @@
 				>
 			</div>
 		</form>
-		<v-snackbar v-model="snackbar" color="surface" vertical>
-			<div class="font-weight-medium">
-				{{ msg }}
-			</div>
-		</v-snackbar>
+
 	</div>
 </template>
 
