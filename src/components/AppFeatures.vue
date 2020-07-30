@@ -62,7 +62,7 @@
 				<v-col cols="12" md="6">
 					<v-container class="py-5">
 						<h1 class="text-center title">
-							Registrar empresas. Parte del programa de socios
+							Registrar empresas
 						</h1>
 					</v-container>
 					<div class="feature feature-4 pt-7">
@@ -78,7 +78,7 @@
 				<v-col cols="12" md="6">
 					<v-container class="py-5">
 						<h1 class="text-center title">
-							Transferencia de dinero entre cuentas Pagami
+							Transferencia de dinero entre cuentas Pagami (sin comisiones)
 						</h1>
 					</v-container>
 					<div class="feature feature-5 pt-7">
@@ -94,7 +94,7 @@
 				<v-col cols="12" md="6">
 					<v-container class="py-5">
 						<h1 class="text-center title">
-							Retiro de fondos a través de PayPal
+							Retiro de fondos a través de PayPal, Bancolombia, bitcoins
 						</h1>
 					</v-container>
 					<div class="feature feature-6 pt-7">
