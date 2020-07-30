@@ -5,7 +5,7 @@
 				<div
 					class="header-title text-uppercase primary-light--text font-weight-bold"
 				>
-					Precios
+					Planes para empresas
 				</div>
 			</v-col>
 			<v-col cols="12" md="6" class="plan">
@@ -22,8 +22,13 @@
 							<v-icon color="green" size="20">{{ mdiCheckCircle }}</v-icon>
 						</span>
 						<div class="paragraph--text subtitle-1 ml-4">
-							Capacidad para cargar información básica de la empresa
+						Capacidad para registrar la ubicación del negocio en nuestro mapa subir una foto de la fachada y colocar la información de contacto
 						</div>
+            	<span>
+							<v-icon color="green" size="20">{{ mdiCheckCircle }}</v-icon>
+						</span>
+						<div class="paragraph--text subtitle-1 ml-4">
+						Agregar información sobre las actividades económicas del negocio al volante digital lo cual facilitara que los clientes te encuentren 
 					</div>
 				</div>
 			</v-col>
@@ -31,16 +36,16 @@
 				<div class="plan__item">
 					<div class="text-center">
 						<div class="subtitle-1 font-weight-medium primary-light--text ">
-							Emprendedor
+							Se parte de la Industria 4.0
 						</div>
-						<h1 class="plans__price font-serif ">$30 USD / 2 años</h1>
+						<h1 class="plans__price font-serif ">$30 USD / 1 año </h1>
 					</div>
 					<div class="d-flex mt-8 plans__features mx-auto">
 						<span>
 							<v-icon color="green" size="20">{{ mdiCheckCircle }}</v-icon>
 						</span>
 						<div class="paragraph--text subtitle-1 ml-4">
-							Acceso al administrador del catálogo de productos
+							Acceder al catalogo de productos, herramienta administrativa para recibir pedidos, soporte personalizado,volante digital Mejoras en el seo y posicionamiento
 						</div>
 					</div>
 					<div class="d-flex mt-8 plans__features mx-auto">
@@ -48,7 +53,7 @@
 							<v-icon color="green" size="20">{{ mdiCheckCircle }}</v-icon>
 						</span>
 						<div class="paragraph--text subtitle-1 ml-4">
-							Acceso a las próximas funciones
+							Acceso Premium a las próximas funciones valido solo para las compras realizadas antes del 15 septiembre 2020
 						</div>
 					</div>
 				</div>
