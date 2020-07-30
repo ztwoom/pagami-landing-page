@@ -1,36 +1,13 @@
 <template>
 	<div class="newsletter mt-8">
-		<h2 class="font-serif">Suscribete a nuestro boletín informativo</h2>
+		<h2 class="font-serif"> Puedes registrar gratuitamente tu empresa</h2>
 		<p class="body-1 paragraph--text mt-1">
-			y recibe una notificación cuando la aplicación esté lista para Android!
+			Te ayudamos a conseguir más clientes con una tienda online para que tu negocio esté siempre abierto.
 		</p>
 			<div class="d-md-flex mt-6">
       <a href="https://play.google.com/store/apps/details?id=io.ionic.pagami&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img width="300" height="100" alt="Disponible en Google Play" src="https://play.google.com/intl/es-419/badges/static/images/badges/es-419_badge_web_generic.png" v-btn></a>
 				<v-text-field
 					class="mr-md-3"
-					append-icon="mdi-email-outline"
-					background-color="surface"
-					solo
-					color="white"
-					flat
-					placeholder="Tu correo"
-					type="text"
-					label="Correo"
-					depresed
-					:style="{ maxWidth: !smAndUp ? '100%' : '80%' }"
-					v-model="newsletterConfigObj.email"
-					:disabled="newsletterConfigObj.disabled"
-				></v-text-field>
-				<v-btn
-					elevation="0"
-					color="primary"
-					class="text-capitalize"
-					:block="!smAndUp ? true : false"
-					large
-					height="48"
-					type="submit"
-					:loading="newsletterConfigObj.loading"
-					>Enviar</v-btn
 				>
 			</div>
 		</form>
