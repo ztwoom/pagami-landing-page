@@ -7,7 +7,7 @@
 						Con Pagami, encontraras todo lo que necesitas en productos y servicios
 					</h1>
 					<h2 class="subtitle-1 paragraph--text">
-						Te ofrecemos un directorio comercial interactivo para realizar pedidos a domicilio y solicitar servicios más cercano a tu ubicación geográfica
+						Te ofrecemos un directorio comercial interactivo para realizar pedidos a domicilio y solicitar los servicios mas cercanos a tu ubicación geográfica
 					</h2>
 				</div>
 				<app-newsletter></app-newsletter>
