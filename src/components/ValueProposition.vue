@@ -28,7 +28,7 @@
 </template>
 
 <script>
-	import BrandIllustration from "@/assets/svg/illustration.svg";
+	import BrandIllustration from "@/assets/svg/pagamiapp.svg";
 	import AppNewsletter from "@/components/AppNewsletter.vue";
 
 	export default {
