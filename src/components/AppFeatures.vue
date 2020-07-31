@@ -78,7 +78,7 @@
 				<v-col cols="12" md="6">
 					<v-container class="py-5">
 						<h1 class="text-center title">
-							Transferencias entre cuentas Pagami (sin comisiones) y Retiro de fondos a través de PayPal, Bancolombia, Bitcoins
+							Transferencias entre cuentas Pagami y Retiro de fondos a PayPal, Bancolombia o Bitcoins
 						</h1>
 					</v-container>
 					<div class="feature feature-5 pt-7">
