@@ -53,7 +53,7 @@
 							<v-icon color="green" size="20">{{ mdiCheckCircle }}</v-icon>
 						</span>
 						<div class="paragraph--text subtitle-1 ml-4">
-							Acceso Premium a las próximas funciones valido solo para las compras realizadas antes del 15 septiembre 2020
+							Acceso Premium a las próximas funciones valido solo para compras realizadas antes del 15 septiembre 2020
 						</div>
 					</div>
 				</div>
