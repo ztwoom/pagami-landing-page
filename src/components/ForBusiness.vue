@@ -23,8 +23,7 @@
 						Hazte descubrir por nuevos clientes a través del mapa
 					</h1>
 					<p class="subtitle-1 paragraph--text">
-						El problema con las soluciones actuales de aplicaciones de mapas es
-						que la mayoría de las veces las empresas no aparecerán en ellas
+					Te ofrecemos un mapa interactivo con tus clientes muestra tus productos y servicios con una ubicación precisa
 					</p>
 					<p class="subtitle-1 paragraph--text">
 						Agrega fácilmente tu negocio o deja que nuestros socios lo hagan por
@@ -80,8 +79,7 @@
 						Cataloga tus productos o servicios
 					</h1>
 					<p class="subtitle-1 paragraph--text">
-						La mayoría de las aplicaciones que aprovechan los mapas te dan poco
-						control sobre las cosas que puede hacer
+						Puedes solicitar servicios y pedidos en restaurantes, supermercados, farmacias, talleres,hoteles, taxis...... 
 					</p>
 					<p class="subtitle-1 paragraph--text">
 						Mantén a tus clientes comprometidos con tu negocio mostrando
