@@ -22,13 +22,13 @@
 							<v-icon color="green" size="20">{{ mdiCheckCircle }}</v-icon>
 						</span>
 						<div class="paragraph--text subtitle-1 ml-4">
-						Capacidad para registrar la ubicación del negocio en nuestro mapa subir una foto de la fachada y colocar la información de contacto
+					registrar la ubicación del negocio en nuestro mapa y mostar la información de contacto
 						</div>
             	<span>
 							<v-icon color="green" size="20">{{ mdiCheckCircle }}</v-icon>
 						</span>
 						<div class="paragraph--text subtitle-1 ml-4">
-						Agregar información sobre las actividades económicas del negocio al volante digital lo cual facilitara que los clientes te encuentren 
+						Volante digital aumenta la visibilidad de tu empresa
 					</div>
 				</div>
 			</v-col>
