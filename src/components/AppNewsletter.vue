@@ -6,7 +6,7 @@
 		</p>
 			<div class="d-md-flex mt-6">
       <a href="https://play.google.com/store/apps/details?id=io.ionic.pagami&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-        <img width="250" alt="Disponible en Google Play" src="@/assets/img/disponible-en-play-store.png"/>
+        <img width="200" alt="Disponible en Google Play" src="@/assets/img/disponible-en-play-store.png"/>
       </a>
 			</div>
 		</form>
