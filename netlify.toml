@@ -2,13 +2,12 @@
 [build]
   command = "yarn build"
   publish = "dist"
-  functions = "lambda"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app. 
   ## Not needed for static site generators.
-# [[redirects]]
-#   from = "/*"
-#   to = "/index.html"
+[[redirects]]
+   from = "/"
+   to = "https://pagami.app"
 #   status = 200
   
   ## (optional) Settings for Netlify Dev
