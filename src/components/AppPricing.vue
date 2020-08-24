@@ -12,7 +12,7 @@
 				<div class="plan__item">
 					<div class="text-center">
 						<div class="subtitle-1 font-weight-medium primary-light--text ">
-							Se parte de la Industria 4.0
+							Gratis de por vida
 						</div>
 						<h1 class="plans__price font-serif ">$0 USD</h1>
 					</div>
