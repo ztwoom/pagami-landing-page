@@ -14,7 +14,7 @@
 						<div class="subtitle-1 font-weight-medium primary-light--text ">
 							Se parte de la Industria 4.0
 						</div>
-						<h1 class="plans__price font-serif ">$ USD</h1>
+						<h1 class="plans__price font-serif ">$0 USD</h1>
 					</div>
 					<div class="d-flex mt-8 plans__features mx-auto">
 						<span>
