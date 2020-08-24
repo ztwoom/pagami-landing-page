@@ -7,31 +7,34 @@
 				>
 					Planes para empresas
 				</div>
-			</v-col>
-			<v-col cols="12" md="6" class="plan">
-				<span class="plan__divider d-none d-md-flex"></span>
+			</v-col>      
+      <v-col cols="12" md="6">
 				<div class="plan__item">
 					<div class="text-center">
 						<div class="subtitle-1 font-weight-medium primary-light--text ">
-							Gratis de por vida
+							Se parte de la Industria 4.0
 						</div>
-						<h1 class="plans__price font-serif ">$0 USD</h1>
+						<h1 class="plans__price font-serif ">$ USD</h1>
 					</div>
 					<div class="d-flex mt-8 plans__features mx-auto">
 						<span>
 							<v-icon color="green" size="20">{{ mdiCheckCircle }}</v-icon>
 						</span>
 						<div class="paragraph--text subtitle-1 ml-4">
-					registrar la ubicación del negocio en nuestro mapa y mostar la información de contacto
+							Registrar la ubicación del negocio en nuestro mapa y mostar la información de contacto
 						</div>
-            	<span>
+					</div>
+					<div class="d-flex mt-8 plans__features mx-auto">
+						<span>
 							<v-icon color="green" size="20">{{ mdiCheckCircle }}</v-icon>
 						</span>
 						<div class="paragraph--text subtitle-1 ml-4">
-						Volante digital aumenta la visibilidad de tu empresa
+							Volante digital aumenta la visibilidad de tu empresa
+						</div>
 					</div>
 				</div>
 			</v-col>
+      
 			<v-col cols="12" md="6">
 				<div class="plan__item">
 					<div class="text-center">
