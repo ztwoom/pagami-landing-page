@@ -1,7 +1,7 @@
 <template>
 	<v-container class="mt-12" tag="footer">
 		<v-row no-gutters>
-			<v-col cols="12" md="6" offset-md="3">
+			<v-col cols="12" md="6" offset-md="3" class="mx-auto">
 				<app-newsletter></app-newsletter>
 			</v-col>
 			<v-col class="text-center mt-12" cols="12">
