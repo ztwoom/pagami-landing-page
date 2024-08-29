@@ -3,10 +3,10 @@
 		<v-btn icon href="mailto:pagami.net@gmail.com" :large="large">
 			<v-icon>{{ mdiEmailOutline }}</v-icon>
 		</v-btn>
-		<v-btn icon href="tel:+573134854926" :large="large">
+		<v-btn icon href="tel:+584129179124" :large="large">
 			<v-icon>{{ mdiPhoneOutline }}</v-icon>
 		</v-btn>
-		<v-btn icon href="https://wa.me/573134854926" :large="large">
+		<v-btn icon href="https://wa.me/584129179124" :large="large">
 			<v-icon>{{ mdiWhatsapp }}</v-icon>
 		</v-btn>
 	</div>
